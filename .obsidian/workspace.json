@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/ex_commands.md",
+                "file": "vim/neovim_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/ex_commands.md",
+                "file": "vim/neovim_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vim/ex_commands.md",
+                "file": "vim/neovim_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim/ex_commands.md"
+                "file": "vim/neovim_setup.md"
               }
             }
           }
@@ -161,9 +161,10 @@
   },
   "active": "922acf757a84598d",
   "lastOpenFiles": [
-    "vim/vim_motions_operators.md",
+    "README.md",
     "vim/ex_commands.md",
     "vim/visual_mode.md",
+    "vim/vim_motions_operators.md",
     "vim/insert_mode.md",
     "vim/neovim_setup.md",
     "Welcome.md",
