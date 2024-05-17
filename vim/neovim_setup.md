@@ -1,3 +1,6 @@
+```toc
+title: Table of Contents
+```
 Things I want, relative line numbers
 \<space>? neo-tree help when in neotree
 ctrl-o and ctrl-i go forward and back
@@ -69,6 +72,7 @@ awk 'BEGIN{
 }'
 ```
 
+## LazyVim Installation
 Fork the lazyvim repo [https://github.com/LazyVim/starter](https://github.com/LazyVim/starter) so that you have your own copy that you can modify, then install by cloning the fork to your machine using the command below.
 
 ```shell

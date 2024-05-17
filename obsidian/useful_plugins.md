@@ -11,7 +11,6 @@ git clone git@github.com:johansatge/obsidian-automatic-table-of-contents.git
 ```
 ## Usage
 
-
 |Option|Default value|Description|
 |---|---|---|
 |`title`|_None_|Title to display before the table of contents (supports Markdown)|

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/useful_plugins.md",
+                "file": "vim/neovim_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b44bc62b022acd8d",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/useful_plugins.md",
+                "file": "vim/neovim_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/useful_plugins.md",
+                "file": "vim/neovim_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/useful_plugins.md"
+                "file": "vim/neovim_setup.md"
               }
             }
           }
@@ -186,18 +185,18 @@
   },
   "active": "969342c688d9e052",
   "lastOpenFiles": [
-    "vim/neovim_setup.md",
-    "obsidian/useful_plugins.md",
-    "obsidian",
+    "vim/vim_motions_operators.md",
     "vim/my_neovim_shortcuts.md",
+    "vim/neovim_setup.md",
+    "README.md",
+    "vim/visual_mode.md",
     "vim/insert_mode.md",
-    "vim/ex_commands.md",
+    "obsidian/useful_plugins.md",
     "terminator/terminator_setup.md",
     "terminator/terminator_profile_preferences.png",
-    "vim/vim_motions_operators.md",
-    "vim/visual_mode.md",
+    "vim/ex_commands.md",
+    "obsidian",
     "terminator",
-    "README.md",
     "Welcome.md",
     "create a link.md",
     "vim"
