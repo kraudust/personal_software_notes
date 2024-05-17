@@ -1,38 +1,42 @@
-Setup relative line numbers
-
+```toc
+title: Table of Contents
+```
 # Vim Motions
 
-| **Keys** | **Action**                                                       |
-| -------- | ---------------------------------------------------------------- |
-| w        | navigate forward word by word                                    |
-| b        | navigate back word by word                                       |
-| ctrl-f   | move forward one page                                            |
-| ctrl-b   | move back one page                                               |
-| gg       | move to top of page                                              |
-| G        | move to end of page                                              |
-| :w       | save file                                                        |
-| i        | insert mode before cursor                                        |
-| a        | insert mode after cursor                                         |
-| I        | insert text at start of line                                     |
-| A        | insert text at end of line                                       |
-| o        | insert text below current line                                   |
-| O        | insert text above current line                                   |
-| yy       | copy an entire line                                              |
-| dd       | delete an entire line                                            |
-| p        | paste                                                            |
-| u        | undo last change                                                 |
-| ctrl-r   | redo last change                                                 |
-| .        | repeat last operation in normal mode                             |
-| /word    | search for word forward                                          |
-| ?word    | search for word backward                                         |
-| n        | next search result                                               |
-| N        | previous search result                                           |
-| *        | search forward for word under cursor                             |
-| #        | search backward for word under cursor                            |
-| gd       | go to definition (within file)                                   |
-| f        | find character in line fx for example goes to next instance of x |
-| F        | same as f but towards start of line                              |
-| ; or ,   | repeat f in forward or backward direction                        |
+| **Keys**   | **Action**                                                       |
+| ---------- | ---------------------------------------------------------------- |
+| w          | navigate forward word by word                                    |
+| b          | navigate back word by word                                       |
+| ctrl-f     | move forward one page                                            |
+| ctrl-b     | move back one page                                               |
+| gg         | move to top of page                                              |
+| G          | move to end of page                                              |
+| :w         | save file                                                        |
+| i          | insert mode before cursor                                        |
+| a          | insert mode after cursor                                         |
+| I          | insert text at start of line                                     |
+| A          | insert text at end of line                                       |
+| o          | insert text below current line                                   |
+| O          | insert text above current line                                   |
+| yy         | copy an entire line                                              |
+| dd         | delete an entire line                                            |
+| p          | paste                                                            |
+| u          | undo last change                                                 |
+| ctrl-r     | redo last change                                                 |
+| .          | repeat last operation in normal mode                             |
+| /word      | search for word forward                                          |
+| ?word      | search for word backward                                         |
+| n          | next search result                                               |
+| N          | previous search result                                           |
+| *          | search forward for word under cursor                             |
+| #          | search backward for word under cursor                            |
+| gd         | go to definition (within file)                                   |
+| f          | find character in line fx for example goes to next instance of x |
+| F          | same as f but towards start of line                              |
+| ; or ,     | repeat f in forward or backward direction                        |
+| ctrl-o     | go to previous location                                          |
+| ctrl-i     | go to next location                                              |
+| <space\>sh | search help                                                      |
 
 # Vim Operators and Text Objects
 The following table contains vim operators

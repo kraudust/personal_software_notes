@@ -5,10 +5,9 @@ title: Usefule Plugins
 ```
 # Auto Table of Contents
 ## Installation
-```
-cd /path/to/your/vault/.obsidian/plugins 
-git clone git@github.com:johansatge/obsidian-automatic-table-of-contents.git
-```
+- Open settings in obsidian
+- Automatic Table of Contents in Community plugins
+- [https://github.com/johansatge/obsidian-automatic-table-of-contents](https://github.com/johansatge/obsidian-automatic-table-of-contents) - github link if needed
 ## Usage
 
 |Option|Default value|Description|
@@ -19,7 +18,6 @@ git clone git@github.com:johansatge/obsidian-automatic-table-of-contents.git
 |`maxLevel`|`0`|Include headings up to the specified level (`0` for no limit)|
 |`includeLinks`|`true`|Make headings clickable|
 |`debugInConsole`|`false`|Print debug info in Obsidian console|
-[https://github.com/fnumatic/obsidian-plugin-dynamic-toc](https://github.com/fnumatic/obsidian-plugin-dynamic-toc)
 
 
 

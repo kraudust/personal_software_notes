@@ -11,9 +11,11 @@
             "id": "47acc5acb8046e16",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "development_tools/terminator/terminator_profile_preferences.png"
+                "file": "development_tools/vim/neovim_setup.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/terminator/terminator_profile_preferences.png",
+                "file": "development_tools/vim/neovim_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/terminator/terminator_profile_preferences.png",
+                "file": "development_tools/vim/neovim_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/terminator/terminator_profile_preferences.png"
+                "file": "development_tools/vim/neovim_setup.md"
               }
             }
           }
@@ -146,20 +148,20 @@
   },
   "active": "47acc5acb8046e16",
   "lastOpenFiles": [
+    "development_tools/vim/ex_commands.md",
     "development_tools/obsidian/useful_plugins.md",
+    "development_tools/terminator/terminator_setup.md",
+    "development_tools/vim/vim_keymappings.md",
+    "development_tools/vim/neovim_setup.md",
+    "development_tools/vim/visual_mode.md",
+    "development_tools/vim/my_neovim_shortcuts.md",
+    "development_tools/vim/insert_mode.md",
+    "development_tools/terminator/terminator_profile_preferences.png",
     "README.md",
     "development_tools/vim/vim.md",
     "development_tools/development_tools.md",
-    "development_tools/vim/ex_commands.md",
-    "development_tools/vim/visual_mode.md",
-    "development_tools/vim/vim_motions_operators.md",
-    "development_tools/vim/neovim_setup.md",
     "development_tools/README.md",
     "development_tools",
-    "development_tools/vim/my_neovim_shortcuts.md",
-    "development_tools/vim/insert_mode.md",
-    "development_tools/terminator/terminator_setup.md",
-    "development_tools/terminator/terminator_profile_preferences.png",
     "development_tools/obsidian",
     "development_tools/terminator",
     "Welcome.md",

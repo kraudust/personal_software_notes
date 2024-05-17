@@ -1,10 +1,6 @@
 ```toc
 title: Table of Contents
 ```
-Things I want, relative line numbers
-\<space>? neo-tree help when in neotree
-ctrl-o and ctrl-i go forward and back
-
 # Neovim Installation
 Install some dependencies with the commands below:
 ```shell
@@ -88,4 +84,8 @@ That's it! Lazy will install all the plugins you have. Use `:Lazy` to view cur
 Run :LazyHealth after installation to check install.
 
 See: [http://www.lazyvim.org/keymaps](http://www.lazyvim.org/keymaps) for keymaps.
+
+# Customizations
+Things I want, relative line numbers
+\<space>? neo-tree help when in neotree
 
