@@ -5,14 +5,6 @@ Things I want, relative line numbers
 \<space>? neo-tree help when in neotree
 ctrl-o and ctrl-i go forward and back
 
-Table of Contents
-
-1. [Neovim Installation](#neovim-installation)
-1. [LazyVim Installation](#lazyvim-installation)
-	1. [Prerequisites](#prerequisites)
-	1. [Installation](#installation)
-
-
 # Neovim Installation
 Install some dependencies with the commands below:
 ```shell
