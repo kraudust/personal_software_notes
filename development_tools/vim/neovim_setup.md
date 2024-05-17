@@ -10,7 +10,8 @@ Table of Contents
 1. [Neovim Installation](#neovim-installation)
 1. [LazyVim Installation](#lazyvim-installation)
 	1. [Prerequisites](#prerequisites)
-	1. [LazyVim Installation](#lazyvim-installation)
+	1. [Installation](#installation)
+
 
 # Neovim Installation
 Install some dependencies with the commands below:
