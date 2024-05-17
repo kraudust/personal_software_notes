@@ -13,6 +13,7 @@ These are : commands in vim
 | :%s/led/gold/gci                    | same as above but case insensitive                                                         |
 | :sp file                            | split horizontally and open file                                                           |
 | :vsp file                           | split vertically and open file                                                             |
+| :!                                  | Type this, then you can execute a shell command                                            |
 
 
 Vim also provides a series of Ex commands that perform equivalent actions to the _Normal mode_ operators but with a different use case in mind: Operating on multiple lines at once.

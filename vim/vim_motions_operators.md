@@ -2,45 +2,51 @@ Setup relative line numbers
 
 # Vim Motions
 
-| **Keys** | **Action**                            |
-| -------- | ------------------------------------- |
-| w        | navigate forward word by word         |
-| b        | navigate back word by word            |
-| ctrl-f   | move forward one page                 |
-| ctrl-b   | move back one page                    |
-| gg       | move to top of page                   |
-| G        | move to end of page                   |
-| :w       | save file                             |
-| i        | insert mode before cursor             |
-| a        | insert mode after cursor              |
-| I        | insert text at start of line          |
-| A        | insert text at end of line            |
-| o        | insert text below current line        |
-| O        | insert text above current line        |
-| yy       | copy an entire line                   |
-| dd       | delete an entire line                 |
-| p        | paste                                 |
-| u        | undo last change                      |
-| ctrl-r   | redo last change                      |
-| .        | repeat last operation in normal mode  |
-| /word    | search for word forward               |
-| ?word    | search for word backward              |
-| n        | next search result                    |
-| N        | previous search result                |
-| *        | search forward for word under cursor  |
-| #        | search backward for word under cursor |
-| gd       | go to definition (within file)        |
+| **Keys** | **Action**                                                       |
+| -------- | ---------------------------------------------------------------- |
+| w        | navigate forward word by word                                    |
+| b        | navigate back word by word                                       |
+| ctrl-f   | move forward one page                                            |
+| ctrl-b   | move back one page                                               |
+| gg       | move to top of page                                              |
+| G        | move to end of page                                              |
+| :w       | save file                                                        |
+| i        | insert mode before cursor                                        |
+| a        | insert mode after cursor                                         |
+| I        | insert text at start of line                                     |
+| A        | insert text at end of line                                       |
+| o        | insert text below current line                                   |
+| O        | insert text above current line                                   |
+| yy       | copy an entire line                                              |
+| dd       | delete an entire line                                            |
+| p        | paste                                                            |
+| u        | undo last change                                                 |
+| ctrl-r   | redo last change                                                 |
+| .        | repeat last operation in normal mode                             |
+| /word    | search for word forward                                          |
+| ?word    | search for word backward                                         |
+| n        | next search result                                               |
+| N        | previous search result                                           |
+| *        | search forward for word under cursor                             |
+| #        | search backward for word under cursor                            |
+| gd       | go to definition (within file)                                   |
+| f        | find character in line fx for example goes to next instance of x |
+| F        | same as f but towards start of line                              |
+| ; or ,   | repeat f in forward or backward direction                        |
 
 # Vim Operators and Text Objects
 The following table contains vim operators
 ## Operators
 
-| **Keys** | **Action**                                                         |
-| -------- | ------------------------------------------------------------------ |
-| c        | delete and then place in insert mode essentially changing the text |
-| d        | delete                                                             |
-| y        | copy                                                               |
-| p        | paste                                                              |
+| **Keys** | **Action**                                                             |
+| -------- | ---------------------------------------------------------------------- |
+| c        | delete and then place in insert mode essentially changing the text     |
+| d        | delete                                                                 |
+| y        | copy                                                                   |
+| p        | paste                                                                  |
+| x        | delete character under cursor                                          |
+| r        | replace character under cursor for example rs replaces charater with s |
+| R        | enter replace mode and stay in replace mode until Esc                  |
 ## Text Objects
 Text objects are structured pieces of text or, if you will, the entities of a document domain model. What is a document composed of? Words, sentences, quoted text, paragraphs, blocks, (HTML) tags, etc. **These are text objects.**
 
@@ -48,16 +54,17 @@ The way that you specify a text object within a command is by combining the lett
 
 Built in text objects are:
 
-| **Text Objects** | **Description** |
-| ---------------- | --------------- |
-| w                | word            |
-| s                | sentence        |
-| p                | paragraph       |
-| b or (           | inside ()       |
-| B or {           | inside {}       |
-| ' or "           | quotes          |
-| <                | <>              |
-| [                | []              |
+| **Text Objects** | **Description**                              |
+| ---------------- | -------------------------------------------- |
+| w                | word                                         |
+| e                | til end of word from current cursor location |
+| s                | sentence                                     |
+| p                | paragraph                                    |
+| b or (           | inside ()                                    |
+| B or {           | inside {}                                    |
+| ' or "           | quotes                                       |
+| <                | <>                                           |
+| [                | []                                           |
 ## Combining Operators with text objects
 Examples:
 

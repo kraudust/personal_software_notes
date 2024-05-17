@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "036b7841b6b7ddb3",
+        "id": "faf85e94a72790fd",
         "type": "tabs",
         "children": [
           {
-            "id": "59cb382fe553788b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vim/vim_motions_operators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "922acf757a84598d",
+            "id": "86a007da9b11a613",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "873a6227209803db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vim/neovim_setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "969342c688d9e052",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/useful_plugins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ea6712ad3e093fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vim/my_neovim_shortcuts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b44bc62b022acd8d",
@@ -98,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "obsidian/useful_plugins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "obsidian/useful_plugins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim/neovim_setup.md"
+                "file": "obsidian/useful_plugins.md"
               }
             }
           }
@@ -159,14 +184,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "922acf757a84598d",
+  "active": "969342c688d9e052",
   "lastOpenFiles": [
-    "README.md",
-    "vim/ex_commands.md",
-    "vim/visual_mode.md",
-    "vim/vim_motions_operators.md",
-    "vim/insert_mode.md",
     "vim/neovim_setup.md",
+    "obsidian/useful_plugins.md",
+    "obsidian",
+    "vim/my_neovim_shortcuts.md",
+    "vim/insert_mode.md",
+    "vim/ex_commands.md",
+    "terminator/terminator_setup.md",
+    "terminator/terminator_profile_preferences.png",
+    "vim/vim_motions_operators.md",
+    "vim/visual_mode.md",
+    "terminator",
+    "README.md",
     "Welcome.md",
     "create a link.md",
     "vim"
