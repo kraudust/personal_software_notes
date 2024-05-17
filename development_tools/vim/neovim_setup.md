@@ -5,6 +5,13 @@ Things I want, relative line numbers
 \<space>? neo-tree help when in neotree
 ctrl-o and ctrl-i go forward and back
 
+Table of Contents
+
+1. [Neovim Installation](#neovim-installation)
+1. [LazyVim Installation](#lazyvim-installation)
+	1. [Prerequisites](#prerequisites)
+	1. [LazyVim Installation](#lazyvim-installation)
+
 # Neovim Installation
 Install some dependencies with the commands below:
 ```shell
@@ -20,7 +27,6 @@ git checkout stable
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
-
 # LazyVim Installation
 [http://www.lazyvim.org/installation](http://www.lazyvim.org/installation)
 
@@ -72,7 +78,7 @@ awk 'BEGIN{
 }'
 ```
 
-## LazyVim Installation
+## Installation
 Fork the lazyvim repo [https://github.com/LazyVim/starter](https://github.com/LazyVim/starter) so that you have your own copy that you can modify, then install by cloning the fork to your machine using the command below.
 
 ```shell
