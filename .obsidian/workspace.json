@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/my_neovim_shortcuts.md",
+                "file": "development_tools/vim/my_neovim_shortcuts.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vim/neovim_setup.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim/neovim_setup.md"
+                "file": "README.md"
               }
             }
           }
@@ -185,20 +185,23 @@
   },
   "active": "969342c688d9e052",
   "lastOpenFiles": [
-    "vim/vim_motions_operators.md",
-    "vim/my_neovim_shortcuts.md",
-    "vim/neovim_setup.md",
+    "development_tools/vim/vim.md",
+    "development_tools/development_tools.md",
+    "development_tools/vim/neovim_setup.md",
+    "development_tools",
+    "development_tools/vim/my_neovim_shortcuts.md",
     "README.md",
-    "vim/visual_mode.md",
-    "vim/insert_mode.md",
-    "obsidian/useful_plugins.md",
-    "terminator/terminator_setup.md",
-    "terminator/terminator_profile_preferences.png",
-    "vim/ex_commands.md",
-    "obsidian",
-    "terminator",
+    "development_tools/vim/vim_motions_operators.md",
+    "development_tools/vim/visual_mode.md",
+    "development_tools/vim/insert_mode.md",
+    "development_tools/obsidian/useful_plugins.md",
+    "development_tools/terminator/terminator_setup.md",
+    "development_tools/terminator/terminator_profile_preferences.png",
+    "development_tools/vim/ex_commands.md",
+    "development_tools/obsidian",
+    "development_tools/terminator",
     "Welcome.md",
     "create a link.md",
-    "vim"
+    "development_tools/vim"
   ]
 }
