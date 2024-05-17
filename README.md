@@ -1,7 +1,3 @@
-```toc
-title: Table of Contents
-```
-
 # Personal Software Notes
 General software development notes for my workflow
 

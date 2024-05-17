@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/vim/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 275.5
   },
   "right": {
     "id": "b44bc62b022acd8d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/vim/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/vim/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md"
+                "file": "development_tools/vim/vim.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   "active": "47acc5acb8046e16",
   "lastOpenFiles": [
     "development_tools/development_tools.md",
-    "development_tools/vim/vim.md",
     "README.md",
+    "development_tools/vim/vim.md",
     "development_tools/README.md",
-    "development_tools/obsidian/useful_plugins.md",
     "development_tools/vim/neovim_setup.md",
+    "development_tools/obsidian/useful_plugins.md",
     "development_tools",
     "development_tools/vim/my_neovim_shortcuts.md",
     "development_tools/vim/vim_motions_operators.md",

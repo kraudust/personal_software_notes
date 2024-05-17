@@ -1,7 +1,6 @@
 %% Begin Waypoint %%
 - **obsidian**
 	- [[useful_plugins]]
-- [[README]]
 - **terminator**
 	- [[terminator_setup]]
 - **[[vim]]**
