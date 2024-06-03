@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md"
+                "file": "development_tools/vim/neovim_setup.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
-    "development_tools/obsidian/useful_plugins.md",
+    "README.md",
     "development_tools/linux/simultaneous_work_personal_github.md",
+    "development_tools/obsidian/useful_plugins.md",
     "development_tools/obsidian/installation.md",
     "development_tools/linux/bash_files.md",
     "development_tools/vim/neovim_setup.md",
@@ -188,7 +189,6 @@
     "learning",
     "development_tools/vim/my_neovim_shortcuts.md",
     "development_tools/vim/insert_mode.md",
-    "README.md",
     "development_tools/vim/vim.md",
     "development_tools/development_tools.md",
     "development_tools/README.md",
