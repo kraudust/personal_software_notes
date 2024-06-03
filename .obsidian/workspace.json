@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/obsidian/installation.md",
+                "file": "development_tools/linux/simultaneous_work_personal_github.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/obsidian/installation.md",
+                "file": "development_tools/linux/simultaneous_work_personal_github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/obsidian/installation.md",
+                "file": "development_tools/linux/simultaneous_work_personal_github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/obsidian/installation.md"
+                "file": "development_tools/linux/simultaneous_work_personal_github.md"
               }
             }
           }
@@ -159,17 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "138d91523209109f",
+  "active": "859f4c73fc44206c",
   "lastOpenFiles": [
     "development_tools/obsidian/useful_plugins.md",
+    "development_tools/linux/simultaneous_work_personal_github.md",
     "development_tools/obsidian/installation.md",
+    "development_tools/linux/bash_files.md",
+    "development_tools/vim/neovim_setup.md",
     "development_tools/terminator/terminator_setup.md",
     "potential_jobs/cobalt.md",
     "potential_jobs/oksi.md",
-    "development_tools/linux/bash_files.md",
     "development_tools/linux",
     "development_tools/terminator/terminator_profile_preferences.png",
-    "development_tools/vim/neovim_setup.md",
     "development_tools/vim/vim_keymappings.md",
     "robotics/paper_reviews/measuring_performance_metrics_for manipulator_design_control_and_optimization.md",
     "potential_jobs",
