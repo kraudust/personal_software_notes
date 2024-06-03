@@ -1,0 +1,21 @@
+# Personal github use on work machine
+Add a .gitconfig-personal to the root of any personal github repos with the following contents (after generating a personal ssh key and adding it to the personal github repo ssh keys).
+
+```
+[user]
+email = dustan.kraus@gmail.com
+name = Dustan Kraus
+
+[github]
+user = "kraudust"
+
+[core]
+sshCommand = "ssh -i ~/.ssh/id_ed25519_personal"
+```
+
+If you haven't generated the personal ssh key on the work machine, use the following:
+```
+ssh-keygen -t ed25519 -C "dustan.kraus@gmail.com"
+When prompted enter the following:
+Enter file in which to save the key (/home/dustankraus/.ssh/id_ed25519): /home/dustankraus/.ssh/id_ed25519_personal
+```
