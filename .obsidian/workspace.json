@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0f1e9f399e4c4c41",
+        "id": "b9d30ed9e08c5fb2",
         "type": "tabs",
         "children": [
           {
-            "id": "47acc5acb8046e16",
+            "id": "2fe7ca4263de803a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/terminator/terminator_setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 341.5
   },
   "right": {
     "id": "b44bc62b022acd8d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/terminator/terminator_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/terminator/terminator_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md"
+                "file": "development_tools/terminator/terminator_setup.md"
               }
             }
           }
@@ -146,17 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47acc5acb8046e16",
+  "active": "2fe7ca4263de803a",
   "lastOpenFiles": [
-    "development_tools/vim/ex_commands.md",
-    "development_tools/obsidian/useful_plugins.md",
+    "potential_jobs/cobalt.md",
+    "potential_jobs/oksi.md",
+    "development_tools/linux/bash_files.md",
     "development_tools/terminator/terminator_setup.md",
-    "development_tools/vim/vim_keymappings.md",
+    "development_tools/linux",
+    "development_tools/terminator/terminator_profile_preferences.png",
     "development_tools/vim/neovim_setup.md",
+    "development_tools/vim/vim_keymappings.md",
+    "robotics/paper_reviews/measuring_performance_metrics_for manipulator_design_control_and_optimization.md",
+    "potential_jobs",
+    "robotics/paper_reviews/manipulator_performance_measures.md",
+    "robotics/paper_reviews/images/Pasted image 20240528082909.png",
+    "robotics/paper_reviews/images",
+    "robotics/paper_reviews/images/Pasted image 20240528092311.png",
+    "robotics/paper_reviews/images/Pasted image 20240528083143.png",
+    "development_tools/vim/ex_commands.md",
+    "robotics/robotics_notes.md",
+    "robotics/paper_reviews",
+    "robotics",
     "development_tools/vim/visual_mode.md",
+    "learning/things_to_learn.md",
+    "learning",
+    "development_tools/obsidian/useful_plugins.md",
     "development_tools/vim/my_neovim_shortcuts.md",
     "development_tools/vim/insert_mode.md",
-    "development_tools/terminator/terminator_profile_preferences.png",
     "README.md",
     "development_tools/vim/vim.md",
     "development_tools/development_tools.md",

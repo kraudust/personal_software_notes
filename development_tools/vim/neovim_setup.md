@@ -21,7 +21,7 @@ sudo make install
 
 ## Prerequisites
 a [nerd font](https://www.nerdfonts.com/font-downloads)
-- Download font choice from link above (mono fonts are preferred, firacode and jetbrains are supposed to be good)
+- Download font choice from link above (JetBrains Mono is my top choice right now)
 - extract and copy font folder to /usr/share/fonts/truetype/ folder
 - Will need to select the font for whatever terminal you are using (kitty, terminator, etc.)
 
@@ -86,6 +86,11 @@ Run :LazyHealth after installation to check install.
 See: [http://www.lazyvim.org/keymaps](http://www.lazyvim.org/keymaps) for keymaps.
 
 # Customizations
+## Files and what they do:
+
 Things I want, relative line numbers
 \<space>? neo-tree help when in neotree
+\<leader>f Right now this doesn't search into git submodules, I need it to.
+I want to turn off diagnostics, or at least get it working where it can find files etc.
+
 
