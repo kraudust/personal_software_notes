@@ -23,7 +23,7 @@ sudo make install
 a [nerd font](https://www.nerdfonts.com/font-downloads)
 - Download font choice from link above (JetBrains Mono is my top choice right now)
 - extract and copy font folder to /usr/share/fonts/truetype/ folder
-- Will need to select the font for whatever terminal you are using (kitty, terminator, etc.)
+- Will need to select the font for whatever terminal you are using (kitty, [[terminator_setup]], etc.)
 
 lazygit
 ```shell
@@ -68,7 +68,7 @@ awk 'BEGIN{
 ```
 
 ## Installation
-Fork the lazyvim repo [https://github.com/LazyVim/starter](https://github.com/LazyVim/starter) so that you have your own copy that you can modify, then install by cloning the fork to your machine using the command below.
+Forked the lazyvim repo [https://github.com/LazyVim/starter](https://github.com/LazyVim/starter) so I have my own copy that I can modify, install by cloning the fork to local machine using the command below.
 
 ```shell
 git clone https://github.com/kraudust/starter.git ~/.config/nvim
