@@ -87,7 +87,6 @@ See: [http://www.lazyvim.org/keymaps](http://www.lazyvim.org/keymaps) for keymap
 
 # Customizations
 ## Files and what they do:
-
 Things I want, relative line numbers
 \<space>? neo-tree help when in neotree
 \<leader>f Right now this doesn't search into git submodules, I need it to.
