@@ -4,5 +4,5 @@ Add the following lines to the .bash_aliases file
 alias b='cd ..'
 
 # Switches cd to cd and then ls automatically
-function cd() { builtin cd "$@" && ls; }
+function cd() { builtin cd "$@" && ll; }
 ```

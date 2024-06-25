@@ -92,4 +92,12 @@ Things I want, relative line numbers
 \<leader>f Right now this doesn't search into git submodules, I need it to.
 I want to turn off diagnostics, or at least get it working where it can find files etc.
 
+TODO: Explore all the plugins used and make my own config that just uses the ones I want and then ditch lazy vim while still using the lazy plugin manager
+
+This contains all the plugins used: https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/plugins
+
+Instructions are here: https://www.lazyvim.org/plugins
+
+
+
 

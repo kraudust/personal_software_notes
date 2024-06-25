@@ -39,8 +39,8 @@ title: Table of Contents
 | <space\>sh | search help                                                      |
 | shift-h    | shift to tab at left                                             |
 | shift-l    | shift to tab at right                                            |
-| alt-j      | move line down                                                   |
-| alt-k      | move line up                                                     |
+| ]m         | Go to next method                                                |
+| [m         | go to previous method                                            |
 
 # Vim Operators and Text Objects
 The following table contains vim operators
