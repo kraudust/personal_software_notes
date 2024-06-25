@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "robotics/quaternion_euler_conversions_cpp.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "robotics/quaternion_euler_conversions_cpp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "robotics/quaternion_euler_conversions_cpp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md"
+                "file": "robotics/quaternion_euler_conversions_cpp.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
+    "learning/things_to_learn.md",
+    "robotics/quaternion_euler_conversions_cpp.md",
+    "development_tools/linux/simultaneous_work_personal_github.md",
+    "development_tools/vim/neovim_setup.md",
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/terminator_profile_preferences.png",
-    "development_tools/vim/neovim_setup.md",
     "development_tools/linux/bash_files.md",
-    "development_tools/linux/simultaneous_work_personal_github.md",
     "development_tools/vim/vim_keymappings.md",
     "development_tools/vim/ex_commands.md",
     "development_tools/linux/multiple_python_versions.md",
@@ -167,7 +169,6 @@
     "robotics/paper_reviews/images",
     "robotics/paper_reviews",
     "robotics",
-    "learning/things_to_learn.md",
     "learning",
     "development_tools/vim/visual_mode.md",
     "development_tools/obsidian/useful_plugins.md",
