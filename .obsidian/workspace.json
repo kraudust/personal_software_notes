@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md",
-                "mode": "source",
-                "source": false
+                "file": "development_tools/ros/ros2_notes.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md",
+                "file": "development_tools/ros/ros2_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md",
+                "file": "development_tools/ros/ros2_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/linux/simultaneous_work_personal_github.md"
+                "file": "development_tools/ros/ros2_notes.md"
               }
             }
           }
@@ -148,17 +148,19 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
+    "development_tools/vim/vim_keymappings.md",
+    "development_tools/ros/ros2_notes.md",
+    "development_tools/ros",
+    "learning/things_to_learn.md",
+    "robotics/quaternion_euler_conversions_cpp.md",
+    "development_tools/linux/simultaneous_work_personal_github.md",
     "tatus",
     "development_tools/vim/neovim_setup.md",
     "development_tools/vim/ex_commands.md",
-    "development_tools/linux/simultaneous_work_personal_github.md",
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/terminator_profile_preferences.png",
     "development_tools/linux/bash_files.md",
     "development_tools/linux/multiple_python_versions.md",
-    "robotics/quaternion_euler_conversions_cpp.md",
-    "learning/things_to_learn.md",
-    "development_tools/vim/vim_keymappings.md",
     "development_tools/obsidian/installation.md",
     "development_tools/obsidian/hacks.md",
     "README.md",
@@ -177,10 +179,8 @@
     "development_tools/terminator",
     "development_tools/obsidian",
     "development_tools/linux",
-    "development_tools",
     "potential_jobs/cobalt.md",
     "potential_jobs/oksi.md",
-    "potential_jobs",
     "robotics/robotics_notes.md",
     "development_tools/vim/my_neovim_shortcuts.md",
     "development_tools/vim/insert_mode.md",
