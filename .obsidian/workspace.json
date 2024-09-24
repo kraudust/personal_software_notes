@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/linux/bash_files.md",
+                "file": "software_notes/python/argument_parsing.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/linux/bash_files.md",
+                "file": "software_notes/python/argument_parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/linux/bash_files.md",
+                "file": "software_notes/python/argument_parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/linux/bash_files.md"
+                "file": "software_notes/python/argument_parsing.md"
               }
             }
           }
@@ -146,21 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "138d91523209109f",
+  "active": "859f4c73fc44206c",
   "lastOpenFiles": [
+    "software_notes/python/type_hints.md",
+    "software_notes/python/argument_parsing.md",
+    "software_notes/python/pyqt5.md",
+    "software_notes/python/inheritance.md",
+    "software_notes/python/transform_libraries.md",
+    "development_tools/coding_standards/python.md",
+    "software_notes/python",
+    "software_notes",
+    "development_tools/coding_standards/generate_documentation.md",
+    "development_tools/coding_standards/AutoApiDocProcess.md",
+    "development_tools/coding_standards/cpp.md",
+    "development_tools/linux/bash_files.md",
     "development_tools/linux/laptop_setup.sh",
     "development_tools/linux/simultaneous_work_personal_github.md",
     "development_tools/linux/install.sh",
     "development_tools/linux/multiple_python_versions.md",
-    "development_tools/linux/bash_files.md",
     "README.md",
     "robotics/quaternion_euler_conversions_cpp.md",
     "robotics/paper_reviews/measuring_performance_metrics_for manipulator_design_control_and_optimization.md",
     "robotics/paper_reviews/manipulator_performance_measures.md",
     "learning/things_to_learn.md",
-    "development_tools/coding_standards/python.md",
     "development_tools/coding_standards/Pasted image 20240923173237.png",
-    "development_tools/coding_standards/c++.md",
     "development_tools/ros/ros2_notes.md",
     "development_tools/coding_standards",
     "development_tools/vim/vim_keymappings.md",
@@ -178,15 +187,7 @@
     "robotics/paper_reviews/images",
     "robotics/paper_reviews",
     "robotics",
-    "learning",
     "development_tools/vim/visual_mode.md",
-    "development_tools/obsidian/useful_plugins.md",
-    "development_tools/vim",
-    "development_tools/terminator",
-    "potential_jobs/cobalt.md",
-    "potential_jobs/oksi.md",
-    "robotics/robotics_notes.md",
-    "development_tools/vim/my_neovim_shortcuts.md",
-    "development_tools/vim/insert_mode.md"
+    "development_tools/obsidian/useful_plugins.md"
   ]
 }
