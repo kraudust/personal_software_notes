@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/ros/ros2_notes.md",
-                "mode": "preview",
+                "file": "development_tools/coding_standards/python.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/ros/ros2_notes.md",
+                "file": "development_tools/coding_standards/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/ros/ros2_notes.md",
+                "file": "development_tools/coding_standards/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/ros/ros2_notes.md"
+                "file": "development_tools/coding_standards/python.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
-    "development_tools/vim/vim_keymappings.md",
+    "development_tools/coding_standards/Pasted image 20240923173237.png",
+    "development_tools/coding_standards/c++.md",
+    "development_tools/coding_standards/python.md",
+    "development_tools/coding_standards/python.md",
     "development_tools/ros/ros2_notes.md",
+    "development_tools/coding_standards",
+    "development_tools/vim/vim_keymappings.md",
     "development_tools/ros",
     "learning/things_to_learn.md",
     "robotics/quaternion_euler_conversions_cpp.md",
@@ -178,15 +183,10 @@
     "development_tools/vim",
     "development_tools/terminator",
     "development_tools/obsidian",
-    "development_tools/linux",
     "potential_jobs/cobalt.md",
     "potential_jobs/oksi.md",
     "robotics/robotics_notes.md",
     "development_tools/vim/my_neovim_shortcuts.md",
-    "development_tools/vim/insert_mode.md",
-    "development_tools/vim/vim.md",
-    "development_tools/development_tools.md",
-    "development_tools/README.md",
-    "Welcome.md"
+    "development_tools/vim/insert_mode.md"
   ]
 }
