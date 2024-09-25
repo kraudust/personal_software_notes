@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software_notes/python/argument_parsing.md",
-                "mode": "source",
+                "file": "software_notes/python/unit_testing.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software_notes/python/argument_parsing.md",
+                "file": "software_notes/python/unit_testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software_notes/python/argument_parsing.md",
+                "file": "software_notes/python/unit_testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software_notes/python/argument_parsing.md"
+                "file": "software_notes/python/unit_testing.md"
               }
             }
           }
@@ -146,13 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "859f4c73fc44206c",
+  "active": "138d91523209109f",
   "lastOpenFiles": [
-    "software_notes/python/type_hints.md",
+    "software_notes/cpp/transform_libraries.md",
+    "software_notes/python/transform_libraries.md",
+    "software_notes/cpp",
+    "software_notes/python/unit_testing.md",
     "software_notes/python/argument_parsing.md",
+    "software_notes/cpp/transform_libraries.md",
+    "software_notes/cpp",
+    "software_notes/python/type_hints.md",
     "software_notes/python/pyqt5.md",
     "software_notes/python/inheritance.md",
-    "software_notes/python/transform_libraries.md",
     "development_tools/coding_standards/python.md",
     "software_notes/python",
     "software_notes",
@@ -180,14 +185,9 @@
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/terminator_profile_preferences.png",
     "development_tools/obsidian/installation.md",
-    "development_tools/obsidian/hacks.md",
     "robotics/paper_reviews/images/Pasted image 20240528083143.png",
     "robotics/paper_reviews/images/Pasted image 20240528092311.png",
     "robotics/paper_reviews/images/Pasted image 20240528082909.png",
-    "robotics/paper_reviews/images",
-    "robotics/paper_reviews",
-    "robotics",
-    "development_tools/vim/visual_mode.md",
-    "development_tools/obsidian/useful_plugins.md"
+    "robotics/paper_reviews/images"
   ]
 }
