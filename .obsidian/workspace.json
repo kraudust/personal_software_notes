@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software_notes/python/unit_testing.md",
-                "mode": "preview",
+                "file": "development_tools/cad/blender.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software_notes/python/unit_testing.md",
+                "file": "development_tools/cad/blender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software_notes/python/unit_testing.md",
+                "file": "development_tools/cad/blender.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software_notes/python/unit_testing.md"
+                "file": "development_tools/cad/blender.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "138d91523209109f",
+  "active": "859f4c73fc44206c",
   "lastOpenFiles": [
+    "software_notes/python/unit_testing.md",
+    "development_tools/cad/blender.md",
+    "development_tools/cad",
     "software_notes/cpp/transform_libraries.md",
     "software_notes/python/transform_libraries.md",
     "software_notes/cpp",
-    "software_notes/python/unit_testing.md",
     "software_notes/python/argument_parsing.md",
     "software_notes/cpp/transform_libraries.md",
     "software_notes/cpp",
@@ -184,10 +186,8 @@
     "development_tools/vim/ex_commands.md",
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/terminator_profile_preferences.png",
-    "development_tools/obsidian/installation.md",
     "robotics/paper_reviews/images/Pasted image 20240528083143.png",
     "robotics/paper_reviews/images/Pasted image 20240528092311.png",
-    "robotics/paper_reviews/images/Pasted image 20240528082909.png",
-    "robotics/paper_reviews/images"
+    "robotics/paper_reviews/images/Pasted image 20240528082909.png"
   ]
 }

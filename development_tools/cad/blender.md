@@ -1,0 +1,1 @@
+- See mesh decimator and urdf viewer here: [https://github.com/mcevoyandy/blender_urdf_visualizer](https://github.com/mcevoyandy/blender_urdf_visualizer)
