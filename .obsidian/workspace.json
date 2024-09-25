@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/cad/blender.md",
+                "file": "robotics/quaternion_euler_conversions_cpp.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/cad/blender.md",
+                "file": "robotics/quaternion_euler_conversions_cpp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/cad/blender.md",
+                "file": "robotics/quaternion_euler_conversions_cpp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/cad/blender.md"
+                "file": "robotics/quaternion_euler_conversions_cpp.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
-    "software_notes/python/unit_testing.md",
+    "robotics/urdf_to_dh_conversion.md",
     "development_tools/cad/blender.md",
+    "development_tools/cad/Untitled.md",
+    "software_notes/python/unit_testing.md",
     "development_tools/cad",
     "software_notes/cpp/transform_libraries.md",
     "software_notes/python/transform_libraries.md",
@@ -183,8 +185,6 @@
     "development_tools/ros",
     "tatus",
     "development_tools/vim/neovim_setup.md",
-    "development_tools/vim/ex_commands.md",
-    "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/terminator_profile_preferences.png",
     "robotics/paper_reviews/images/Pasted image 20240528083143.png",
     "robotics/paper_reviews/images/Pasted image 20240528092311.png",
