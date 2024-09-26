@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "robotics/quaternion_euler_conversions_cpp.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "robotics/quaternion_euler_conversions_cpp.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "robotics/quaternion_euler_conversions_cpp.md",
+                "file": "development_tools/vim/neovim_setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "robotics/quaternion_euler_conversions_cpp.md"
+                "file": "development_tools/vim/neovim_setup.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
+    "robotics/quaternion_euler_conversions_cpp.md",
     "robotics/urdf_to_dh_conversion.md",
     "development_tools/cad/blender.md",
     "development_tools/cad/Untitled.md",
@@ -174,7 +175,6 @@
     "development_tools/linux/install.sh",
     "development_tools/linux/multiple_python_versions.md",
     "README.md",
-    "robotics/quaternion_euler_conversions_cpp.md",
     "robotics/paper_reviews/measuring_performance_metrics_for manipulator_design_control_and_optimization.md",
     "robotics/paper_reviews/manipulator_performance_measures.md",
     "learning/things_to_learn.md",

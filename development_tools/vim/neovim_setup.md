@@ -1,6 +1,7 @@
 ```toc
 title: Table of Contents
 ```
+
 # Neovim Installation
 Install some dependencies with the commands below:
 ```shell
@@ -18,6 +19,9 @@ sudo make install
 ```
 # LazyVim Installation
 [http://www.lazyvim.org/installation](http://www.lazyvim.org/installation)
+
+## Textbook on LazyVim
+See textbook [here](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/)
 
 ## Prerequisites
 a [nerd font](https://www.nerdfonts.com/font-downloads)
