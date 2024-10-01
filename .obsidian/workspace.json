@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/ros/ros2_notes.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/ros/ros2_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md",
+                "file": "development_tools/ros/ros2_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development_tools/vim/neovim_setup.md"
+                "file": "development_tools/ros/ros2_notes.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
+    "development_tools/linux/bash_files.md",
+    "development_tools/vim/neovim_setup.md",
     "robotics/quaternion_euler_conversions_cpp.md",
     "robotics/urdf_to_dh_conversion.md",
     "development_tools/cad/blender.md",
@@ -169,7 +171,6 @@
     "development_tools/coding_standards/generate_documentation.md",
     "development_tools/coding_standards/AutoApiDocProcess.md",
     "development_tools/coding_standards/cpp.md",
-    "development_tools/linux/bash_files.md",
     "development_tools/linux/laptop_setup.sh",
     "development_tools/linux/simultaneous_work_personal_github.md",
     "development_tools/linux/install.sh",
@@ -184,7 +185,6 @@
     "development_tools/vim/vim_keymappings.md",
     "development_tools/ros",
     "tatus",
-    "development_tools/vim/neovim_setup.md",
     "development_tools/terminator/terminator_profile_preferences.png",
     "robotics/paper_reviews/images/Pasted image 20240528083143.png",
     "robotics/paper_reviews/images/Pasted image 20240528092311.png",

@@ -1,5 +1,6 @@
+# Install
+- Follow instructions here to install ros2: (https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)[https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html]
 # Commands 
-
 ## Nodes 
 - ros2 run <package_name> <executable_name> 
 - ros2 node list 

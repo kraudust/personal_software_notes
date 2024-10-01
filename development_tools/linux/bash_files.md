@@ -7,6 +7,7 @@ alias b='cd ..'
 function cd() { builtin cd "$@" && ll; }
 
 # ROS2 Aliases
+alias sr2='source /opt/ros/humble/setup.bash'
 alias cb='colcon build --symlink-install'
 alias cbps='colcon build --symlink-install --packages-select '
 alias ct='colcon test '
