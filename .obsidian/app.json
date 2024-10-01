@@ -1,1 +1,7 @@
-{}
+{
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./images",
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "useTab": false
+}
