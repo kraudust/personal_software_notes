@@ -1,6 +1,9 @@
-# Useful tutorials/links:
-- [https://learndocker.online/](https://learndocker.online/) -> Hands on tutorial
-- [https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833](https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833) -> This page mostly comes from this
+```toc
+title: Table of Contents
+```
+# Useful tutorials/links
+- [https://learndocker.online/](https://learndocker.online/) -> [Hands on Tutorial Notes](#Hands%20on%20Tutorial%20Notes)
+- [https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833](https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833) -> This page mostly comes from this link
 # What is docker
 - Virtualizes the user space (processes, memory, mount points, and networking), isolating code from host machine and any other containers. 
 ![[images/Pasted image 20241001133758.png]]
@@ -228,3 +231,68 @@ You’ve now seen how to run create and run Docker containers. This all works gr
 
 The most popular Docker orchestration tool these days is Kubernetes. To learn more about that, head over to [part 2 of this series](https://blog.gruntwork.io/a-crash-course-on-kubernetes-a96c3891ad82), [A crash course on Kubernetes](https://blog.gruntwork.io/a-crash-course-on-kubernetes-a96c3891ad82).
 
+# Hands on Tutorial Notes
+## Introduction
+- Docker avoids dependency hell as the deependencies are packaged in the container
+    - The application will run the same no matter the machine because everything needed is all packaged together
+- Containers have been around for decades, but historically, they've been hard to use. Docker came up with the tooling that makes containers easy to use, share, etc.
+    - Docker gives you the tooling around containers\
+- 2 Types of docker containers
+    - Windows containers - must run on windows
+    - Linux containers - must run on linux
+## Docker Fundamentals
+### Running your first container
+```bash
+docker container run hello-world
+```
+This connects to the Docker daemon, pulls the hello-world image from the Docker Hub, created a new container from that image that runs the executable that produces output, THe Docker daemon streamed that output to the Docker client which sent the output to the terminal
+
+```bash
+docker container run -it alpine sh
+```
+When you want to run an interactive shell in a docker container, you must use the `-it` flag
+- Ctrl-d exits the container
+### Finding images
+- Go to [hub.docker.com](hub.docker.com) and find a docker image you're familiar with
+    - Make sure to look for images with the official label
+    - The way to use tags is as follows: `docker container run -it ubuntu:24.10 sh` for example.
+### Container management
+To see currently running containers
+```bash
+docker container ls
+```
+To kill a currently running container from inside the container use `ctrl-d`.
+
+To exit the container without killing it, `ctrl-p ctrl-q` Then to list containers running:
+```bash
+~ $ docker container ls
+CONTAINER ID   IMAGE          COMMAND   CREATED              STATUS              PORTS     NAMES
+59ea406974bd   ubuntu:24.10   "sh"      About a minute ago   Up About a minute             silly_fermat
+
+```
+To show all containers: `docker container ls -a`
+To reattach to this container: 
+```bash
+docker container attach silly_fermat
+```
+
+To remove a docker container:
+```bash
+docker container rm <CONTAINER ID>
+```
+
+To remove a docker image:
+```bash
+docker image ls # to show images
+docker image rm <image name>
+```
+
+
+## Utilizing Docker
+## Adopting Docker
+
+# OKSI Docker
+- gitlab.oksi.ai:5050/products/omniscience/core/omniscience/onnx -> tags have versions as needed, -> image id is a hash of the exact docker file, if you want to know if you have the same docker image as someone, look at the image id
+- Platforms we need to support:
+    - amd64, jetson (l4t linux 4 tegra)
+- 
