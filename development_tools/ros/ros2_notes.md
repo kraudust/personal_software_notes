@@ -83,17 +83,21 @@ Similar to services, except you can cancel them while executing, and they provid
 	- colcon build --packages-select my_package 
 - After building, source workspace by the following: 
 	- . install/setup.bash from the root of the workspace 
-## Writing a Publisher and Subscriber 
+# Writing a Publisher and Subscriber 
 See examples here: https://docs.ros.org/en/foxy/Tutorials/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html 
 
-## Writing a Simple Service and Client 
+# Writing a Simple Service and Client 
 See examples here: https://docs.ros.org/en/foxy/Tutorials/Writing-A-Simple-Cpp-Service-And-Client.html 
 
-## Creating Custom msg and srv files 
+# Creating Custom msg and srv files 
 See examples here: https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html 
 
-## Actions 
+# Actions 
 - https://docs.ros.org/en/foxy/Tutorials/Actions/Creating-an-Action.html 
 - https://docs.ros.org/en/foxy/Tutorials/Actions/Writing-a-Cpp-Action-Server-Client.html 
-## TF2 
+# TF2 
 ros2 run tf2_tools view_frames.py -> This will make a pdf with the TF tree
+
+# Intraprocess Communication via Composable Nodes
+- See [here](https://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-a-Composable-Node.html) for a tutorial
+- Instead of communicating normally through 

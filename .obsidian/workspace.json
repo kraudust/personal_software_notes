@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "development_tools/docker/docker_crash_course.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -148,8 +148,9 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
-    "development_tools/vim/LazyVimNotes.md",
+    "development_tools/ros/ros2_notes.md",
     "development_tools/docker/docker_crash_course.md",
+    "development_tools/vim/LazyVimNotes.md",
     "development_tools/vim/neovim_setup.md",
     "development_tools/vim/visual_mode.md",
     "development_tools/vim/vim_keymappings.md",
@@ -157,7 +158,6 @@
     "development_tools/vim/ex_commands.md",
     "development_tools/docker/images",
     "development_tools/docker/images/Pasted image 20241001133758.png",
-    "development_tools/ros/ros2_notes.md",
     "development_tools/docker",
     "development_tools/linux/bash_files.md",
     "robotics/quaternion_euler_conversions_cpp.md",

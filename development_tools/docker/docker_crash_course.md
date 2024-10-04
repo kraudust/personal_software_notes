@@ -8,88 +8,41 @@ title: Table of Contents
 - Virtualizes the user space (processes, memory, mount points, and networking), isolating code from host machine and any other containers. 
 ![[images/Pasted image 20241001133758.png]]
 # Install docker
-Follow the [instructions on the Docker website](https://docs.docker.com/get-docker/) to install Docker Desktop for your operating system. Once it’s installed, you should have the `docker` command available on your command line.
-Instructions below from: [https://docs.docker.com/desktop/install/linux/ubuntu/](https://docs.docker.com/desktop/install/linux/ubuntu/)
-1. Set up Docker's package repository. See instructions below:
+Follow the [instructions on the Docker website](https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine) to install Docker Engine for ubuntu. Once it’s installed, you should have the `docker` command available on your command line.
+Instructions below from: [https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine](https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine)
+1. Run the following to uninstall all conflicting packages:
 ```bash
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-```
-2. Download the latest [DEB package](https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*11mnx9i*_ga*MjExNDMwNjAyMS4xNzI3ODE3MjY5*_ga_XJWPQMJYHQ*MTcyNzgxNzI2OS4xLjEuMTcyNzgxOTE0Mi4xMS4wLjA.)
-3. Install the package with apt as follows:
-```bash
-sudo apt-get update
-sudo apt-get install ./docker-desktop-amd64.deb
-```
-Note. At the end of the installation process apt displays an error due to installing a downloaded package. You can ignore this error message.
-```
-N: Download is performed unsandboxed as root, as file '/home/user/Downloads/docker-desktop.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
-```
-# Launch Docker Desktop
-To start Docker Desktop for Linux:
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
 
-1. Open your **Applications** menu in Gnome/KDE Desktop and search for **Docker Desktop**.
-    
-2. Select **Docker Desktop** to start Docker.
-    
-    The Docker Subscription Service Agreement displays.
-    
-3. Select **Accept** to continue. Docker Desktop starts after you accept the terms.
-    
-    Note that Docker Desktop won't run if you do not agree to the terms. You can choose to accept the terms at a later date by opening Docker Desktop.
-
-
-Alternatively, open a terminal and run:
-```bash
-systemctl --user start docker-desktop
+# Images, containers, volumes, or custom configuration files on your host aren't automatically removed. To delete all images, containers, and volumes:
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
 ```
 
-When Docker Desktop starts, it creates a dedicated [context](https://docs.docker.com/engine/context/working-with-contexts) that the Docker CLI can use as a target and sets it as the current context in use. This is to avoid a clash with a local Docker Engine that may be running on the Linux host and using the default context. On shutdown, Docker Desktop resets the current context to the previous one.
-
-The Docker Desktop installer updates Docker Compose and the Docker CLI binaries on the host. It installs Docker Compose V2 and gives users the choice to link it as docker-compose from the Settings panel. Docker Desktop installs the new Docker CLI binary that includes cloud-integration capabilities in `/usr/local/bin/com.docker.cli` and creates a symlink to the classic Docker CLI at `/usr/local/bin`.
-
-After you’ve successfully installed Docker Desktop, you can check the versions of these binaries by running the following commands:
-```
-docker compose version
-Docker Compose version v2.29.1
-
-docker --version
-Docker version 27.1.1, build 6312585
-
-docker version
-Client: 
- Version:           23.0.5
- API version:       1.42
- Go version:        go1.21.12
-<...>
-```
-
-To enable Docker Desktop to start on sign in, from the Docker menu, select **Settings** > **General** > **Start Docker Desktop when you sign in to your computer**.
-
-Alternatively, open a terminal and run:
-
-```console
-$ systemctl --user enable docker-desktop
-```
-
-To stop Docker Desktop, select the Docker menu icon to open the Docker menu and select **Quit Docker Desktop**.
-
-Alternatively, open a terminal and run:
-
-```console
-$ systemctl --user stop docker-desktop
-```
+2. Install from a package
+    1. Go to the following link to download the .deb file for your distribution (selecting pool/stable/amd64)[https://download.docker.com/linux/ubuntu/dists/](https://download.docker.com/linux/ubuntu/dists/)
+    2. Download the following `deb` files for the Docker Engine, CLI, containerd, and Docker Compose packages:
+        - `containerd.io_<version>_<arch>.deb`
+        - `docker-ce_<version>_<arch>.deb`
+        - `docker-ce-cli_<version>_<arch>.deb`
+        - `docker-buildx-plugin_<version>_<arch>.deb`
+        - `docker-compose-plugin_<version>_<arch>.deb`
+    3. Install the `.deb` packages. Update the paths in the following example to where you downloaded the Docker packages.
+    ```bash
+    sudo dpkg -i ./containerd.io_<version>_<arch>.deb \
+    ./docker-ce_<version>_<arch>.deb \
+    ./docker-ce-cli_<version>_<arch>.deb \
+    ./docker-buildx-plugin_<version>_<arch>.deb \
+    ./docker-compose-plugin_<version>_<arch>.deb
+    ```
+    4. Verify that the Docker Engine installation is successful by running the hello-world image.
+    ```bash
+    sudo service docker start
+    sudo docker run hello-world
+    ```
+    5. Receiving errors when trying to run without root? The `docker` user group exists but contains no users, which is why you’re required to use `sudo` to run Docker commands. Continue to [Linux postinstall](https://docs.docker.com/engine/install/linux-postinstall) to allow non-privileged users to run Docker commands and for other optional configuration steps.
 
 # Run Docker Image
 You can run Docker images locally using the `docker run` command, which has the following syntax:
