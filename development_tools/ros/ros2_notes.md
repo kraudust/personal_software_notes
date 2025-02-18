@@ -1,12 +1,18 @@
 # Install
 - Follow instructions here to install ros2: (https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)[https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html]
+
 # Commands 
+## Recording
+### Combining multiple mcap files into one
+- `mcap merge -o output_filename.mcap bag1.mcap bag2.mcap`
+    - May have to use the `--allow-duplicate-metadata` tag as well
 ## Nodes 
 - ros2 run <package_name> <executable_name> 
 - ros2 node list 
 - ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle 
 - ros2 node info <node_name> 
 - rqt_graph -> good visualization of nodes, topics, etc. 
+
 ## Topics 
 - ros2 topic list –t –displays rostopic topics with their type 
 - ros2 topic echo /topicname 
@@ -15,7 +21,8 @@
 - ros2 topic pub <topic_name> <msg_type> '<args>' - args need to be in YAML syntax 
 - ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}" 
 - Publishes at 1 Hz
-- ros2 topic hz /turtle1/pose 
+- ros2 topic hz /turtle1/pose
+
 ## Services
 These are single call type actions (spawn a turtle, for example) 
 - ros2 service list -t 
@@ -26,6 +33,7 @@ These are single call type actions (spawn a turtle, for example) 
 - ros2 interface show turtlesim/srv/Spawn 
 - ros2 service call <service_name> <service_type> <arguments> 
 - ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}" 
+
 ## Parameters 
 - ros2 param list 
 - ros2 param get <node_name> <parameter_name> 
@@ -54,6 +62,8 @@ Similar to services, except you can cancel them while executing, and they provid
 	- If you want all topics use the –a flag 
 - ros2 bag info subset 
 - ros2 bag play subset 
+- To combine data: `mcap merge --allow-duplicate-metadata -o flight2_mono16_merged.mcap flight2_mono16_0.mcap flight2_mono16_1.mcap flight2_mono16_2.mcap flight2_mono16_3.mcap flight2_mono16_4.mcap flight2_mono16_5.mcap`
+- 
 ## Creating a Workspace 
 - Best practice to put packages in the src directory of the worksopace 
 - From workspace root run the following to install dependencies 
@@ -96,7 +106,7 @@ See examples here: https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces
 - https://docs.ros.org/en/foxy/Tutorials/Actions/Creating-an-Action.html 
 - https://docs.ros.org/en/foxy/Tutorials/Actions/Writing-a-Cpp-Action-Server-Client.html 
 # TF2 
-ros2 run tf2_tools view_frames.py -> This will make a pdf with the TF tree
+ros2 run tf2_tools view_frames -> This will make a pdf with the TF tree
 
 # Intraprocess Communication via Composable Nodes
 - See [here](https://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-a-Composable-Node.html) for a tutorial
