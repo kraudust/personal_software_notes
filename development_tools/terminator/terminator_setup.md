@@ -1,3 +1,7 @@
+# Installation
+```bash
+sudo apt-get install -y terminator
+```
 # Keybindings:
 Remap as noted below (~/.config/terminator/config)
 ```
@@ -37,5 +41,5 @@ Remap as noted below (~/.config/terminator/config)
 # Font setup
 Select font and uncheck titlebar as here, except select the mono version of JetBrainsMono: (JetBrainsMono Nerd Font Mono Regular)
 
-![[terminator_profile_preferences.png]]
+![[images/terminator_profile_preferences.png]]
 

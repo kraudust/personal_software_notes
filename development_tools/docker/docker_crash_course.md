@@ -8,8 +8,8 @@ title: Table of Contents
 - Virtualizes the user space (processes, memory, mount points, and networking), isolating code from host machine and any other containers. 
 ![[images/Pasted image 20241001133758.png]]
 # Install docker
-Follow the [instructions on the Docker website](https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine) to install Docker Engine for ubuntu. Once it’s installed, you should have the `docker` command available on your command line.
-Instructions below from: [https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine](https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine)
+Follow the [instructions on the Docker website](https://docs.docker.com/engine/install/ubuntu) to install Docker Engine for ubuntu. Once it’s installed, you should have the `docker` command available on your command line.
+Instructions below from: [https://docs.docker.com/engine/install/ubuntu](https://docs.docker.com/engine/install/ubuntu)
 1. Run the following to uninstall all conflicting packages:
 ```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -20,7 +20,7 @@ sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin do
 sudo rm -rf /var/lib/docker
 sudo rm -rf /var/lib/containerd
 ```
-
+1. Install using the apt repository. Follow the instructions on the website linked above. Or if that doesn't work, the website also has some instructions to install from a package. You can do that too.
 2. Install from a package
     1. Go to the following link to download the .deb file for your distribution (selecting pool/stable/amd64)[https://download.docker.com/linux/ubuntu/dists/](https://download.docker.com/linux/ubuntu/dists/)
     2. Download the following `deb` files for the Docker Engine, CLI, containerd, and Docker Compose packages:

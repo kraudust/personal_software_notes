@@ -35,3 +35,45 @@ ssh-keygen -t ed25519 -C "user.name@personalemail.com"
 When prompted enter the following:
 Enter file in which to save the key (/home/username/.ssh/id_ed25519): /home/username/.ssh/id_ed25519_personal
 ```
+
+# Example config files:
+.gitconfig
+```bash
+[user]  
+    name = Dustan Kraus  
+[credential]  
+    helper = cache --timeout=3600  
+[includeIf "gitdir/i:~/git/personal/"]  
+    path = ~/git/personal/.gitconfig-personal  
+[includeIf "gitdir/i:~/.config/nvim/"]  
+    path = ~/git/personal/.gitconfig-personal  
+[includeIf "gitdir/i:~/git/gitlab/"]  
+    path = ~/.gitconfig-gitlab  
+[filter "lfs"]  
+  process = git-lfs filter-process  
+  required = true  
+  clean = git-lfs clean -- %f  
+  smudge = git-lfs smudge -- %f
+```
+
+.gitconfig-personal
+```bash
+[user]
+email = user.name@personalemail.com
+name = Dustan Kraus
+
+[github]
+user = "kraudust"
+
+[core]
+sshCommand = "ssh -i ~/.ssh/id_ed25519_personal"
+```
+
+.gitconfig-gitlab
+```bash
+[user]  
+    email = workemail@workemail.com
+    signingkey = KEY HERE  
+[commit]  
+    gpgsign = true
+```

@@ -5,6 +5,8 @@ title: Table of Contents
 [http://www.lazyvim.org/installation](http://www.lazyvim.org/installation)
 
 ## Prerequisites
+Install neovim first. See [neovim_setup](neovim_setup.md) note
+
 a [nerd font](https://www.nerdfonts.com/font-downloads)
 - Download font choice from link above (JetBrains Mono is my top choice right now)
 - extract and copy font folder to /usr/share/fonts/truetype/ folder

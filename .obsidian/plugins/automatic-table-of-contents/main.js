@@ -22,8 +22,8 @@ const availableOptions = {
   style: {
     type: 'value',
     default: 'nestedList',
-    values: ['nestedList', 'inlineFirstLevel'],
-    comment: 'TOC style (nestedList|inlineFirstLevel)',
+    values: ['nestedList', 'nestedOrderedList', 'inlineFirstLevel'],
+    comment: 'TOC style (nestedList|nestedOrderedList|inlineFirstLevel)',
   },
   minLevel: {
     type: 'number',
@@ -39,6 +39,11 @@ const availableOptions = {
     type: 'boolean',
     default: true,
     comment: 'Make headings clickable',
+  },
+  hideWhenEmpty: {
+    type: 'boolean',
+    default: false,
+    comment: 'Hide TOC if no headings are found'
   },
   debugInConsole: {
     type: 'boolean',
@@ -61,7 +66,7 @@ class ObsidianAutomaticTableOfContents extends Plugin {
     })
     this.addCommand({
       id: 'insert-automatic-table-of-contents-docs',
-      name: 'Insert table of contents (documented)',
+      name: 'Insert table of contents (with available options)',
       editorCallback: onInsertTocWithDocs,
     })
   }
@@ -127,18 +132,33 @@ class Renderer extends MarkdownRenderChild {
 function getMarkdownFromHeadings(headings, options) {
   const markdownHandlersByStyle = {
     nestedList: getMarkdownNestedListFromHeadings,
+    nestedOrderedList: getMarkdownNestedOrderedListFromHeadings,
     inlineFirstLevel: getMarkdownInlineFirstLevelFromHeadings,
   }
-  let markdown = ''
+  let titleMarkdown = ''
   if (options.title && options.title.length > 0) {
-    markdown += options.title + '\n'
+    titleMarkdown += options.title + '\n'
   }
-  const noHeadingMessage = '_Table of contents: no headings found_'
-  markdown += markdownHandlersByStyle[options.style](headings, options) || noHeadingMessage
-  return markdown
+  const markdownHeadings = markdownHandlersByStyle[options.style](headings, options)
+  if (markdownHeadings === null) {
+    if (options.hideWhenEmpty) {
+      return ''
+    }
+    return titleMarkdown + '_Table of contents: no headings found_'
+  }
+  return titleMarkdown + markdownHeadings
 }
 
 function getMarkdownNestedListFromHeadings(headings, options) {
+  return getMarkdownListFromHeadings(headings, false, options)
+}
+
+function getMarkdownNestedOrderedListFromHeadings(headings, options) {
+  return getMarkdownListFromHeadings(headings, true, options)
+}
+
+function getMarkdownListFromHeadings(headings, isOrdered, options) {
+  const prefix = isOrdered ? '1.' : '-'
   const lines = []
   const minLevel = options.minLevel > 0
     ? options.minLevel
@@ -146,7 +166,7 @@ function getMarkdownNestedListFromHeadings(headings, options) {
   headings.forEach((heading) => {
     if (heading.level < minLevel) return
     if (options.maxLevel > 0 && heading.level > options.maxLevel) return
-    lines.push(`${'\t'.repeat(heading.level - minLevel)}- ${getMarkdownHeading(heading, options)}`)
+    lines.push(`${'\t'.repeat(heading.level - minLevel)}${prefix} ${getMarkdownHeading(heading, options)}`)
   })
   return lines.length > 0 ? lines.join('\n') : null
 }
@@ -279,3 +299,5 @@ if (isObsidian()) {
     getMarkdownFromHeadings,
   }
 }
+
+/* nosourcemap */

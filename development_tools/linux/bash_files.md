@@ -17,8 +17,6 @@ alias sws='. install/setup.bash' # source workspace
 # .bashrc
 Add the following to the .bashrc file:
 ``` bash
-#!/usr/bin/env bash
-
 # Git
 # Show what git or hg branch we are in
 function parse_vc_branch_and_add_brackets {
