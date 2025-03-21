@@ -31,6 +31,16 @@ sudo apt install fd-find
 ln -s $(which fdfind) ~/.local/bin/fd
 ```
 
+fzf
+```bash
+sudo apt install fzf
+```
+
+Need this so mason can install Ruff or something like that
+```bash
+sudo apt install python3-venv
+```
+
 A terminal that supports true color and undercurl (I don't see the appeal of this):
 terminator (my preference)
 ```
@@ -72,6 +82,14 @@ Run :LazyHealth after installation to check install.
 
 See: [http://www.lazyvim.org/keymaps](http://www.lazyvim.org/keymaps) for keymaps.
 
+# LazyVim Plugins
+## Extras to load
+- Start vim `nvim`
+- From the startup page, hit `x` to load Lazy Extras
+- Press `x` by each plugin or language you want to install
+- Recommended to install the languages you use as a minimum
+- probably should explore the recommended plugins
+
 # Textbook on LazyVim
 See textbook [here](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/)
 
@@ -83,6 +101,6 @@ I want to turn off diagnostics, or at least get it working where it can find fil
 
 TODO: Explore all the plugins used and make my own config that just uses the ones I want and then ditch lazy vim while still using the lazy plugin manager
 
-This contains all the plugins used: https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/plugins
+This contains all the plugins used: [https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/plugins](https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/plugins)
 
-Instructions are here: https://www.lazyvim.org/plugins
+Instructions are here: [https://www.lazyvim.org/plugins](https://www.lazyvim.org/plugins)

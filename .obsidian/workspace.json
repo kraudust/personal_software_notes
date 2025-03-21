@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/ros/ros2_notes.md",
-                "mode": "preview",
+                "file": "development_tools/vim/LazyVimNotes.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ros2_notes"
+              "title": "LazyVimNotes"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chrome",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,14 +170,18 @@
   },
   "active": "859f4c73fc44206c",
   "lastOpenFiles": [
-    "development_tools/ros/lichtblick.md",
-    "development_tools/ros/ros2_notes.md",
-    "development_tools/chrome/installation.md",
-    "development_tools/linux/bash_files.md",
     "development_tools/vim/neovim_setup.md",
-    "development_tools/vim/LazyVimNotes.md",
+    "development_tools/nvidia/cuda.md",
+    "development_tools/nvidia",
+    "learning/things_to_learn.md",
     "development_tools/git/simultaneous_work_personal_github.md",
+    "development_tools/linux/useful_command_line_cmds.md",
+    "development_tools/linux/bash_files.md",
     "development_tools/docker/docker_crash_course.md",
+    "development_tools/ros/ros2_notes.md",
+    "development_tools/ros/lichtblick.md",
+    "development_tools/chrome/installation.md",
+    "development_tools/vim/LazyVimNotes.md",
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/images",
     "development_tools/terminator/images/terminator_profile_preferences.png",
@@ -202,12 +206,8 @@
     "development_tools/cad/Untitled.md",
     "software_notes/python/unit_testing.md",
     "development_tools/cad",
-    "software_notes/cpp/transform_libraries.md",
-    "software_notes/python/transform_libraries.md",
     "software_notes/cpp",
-    "software_notes/python/argument_parsing.md",
     "software_notes/cpp",
-    "software_notes/python",
     "development_tools/coding_standards/Pasted image 20240923173237.png",
     "robotics/paper_reviews/images/Pasted image 20240528083143.png",
     "robotics/paper_reviews/images/Pasted image 20240528092311.png",
