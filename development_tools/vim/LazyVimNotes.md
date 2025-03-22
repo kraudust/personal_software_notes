@@ -41,6 +41,11 @@ Need this so mason can install Ruff or something like that
 sudo apt install python3-venv
 ```
 
+For language stuff
+```bash
+sudo apt install nodejs npm
+```
+
 A terminal that supports true color and undercurl (I don't see the appeal of this):
 terminator (my preference)
 ```
