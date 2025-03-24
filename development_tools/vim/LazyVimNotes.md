@@ -43,7 +43,19 @@ sudo apt install python3-venv
 
 For language stuff
 ```bash
+sudo apt update
 sudo apt install nodejs npm
+sudo npm install -g pyright
+```
+
+If getting pyright issues:
+```bash
+curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+source ~/.bashrc  # or source ~/.zshrc
+nvm install --lts
+nvm use --lts
+npm uninstall -g pyright
+npm install -g pyright
 ```
 
 A terminal that supports true color and undercurl (I don't see the appeal of this):
@@ -97,6 +109,14 @@ See: [http://www.lazyvim.org/keymaps](http://www.lazyvim.org/keymaps) for keymap
 
 # Textbook on LazyVim
 See textbook [here](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/)
+## Notes
+### Getting Around
+- In normal mode, s to seek, then start typing the word and use the letters to jump there
+- `ctrl-d` and `ctrl-u` to move a half page down or up
+- `ctrl-f` and `ctrl-b` to move a full page forward or back
+- `zz` `zt` `zb` to move the current line to the middle, top and bottom
+- Moving by words: `b` `e` `w` move to beginning, end, and to next word of words
+- Moving to specific line number: `:100` or `100G` or `gg` to top and `G` to bottom
 
 # Customizations
 ## Files and what they do:
