@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/linux/useful_apps.md",
+                "file": "development_tools/ros/ros2_notes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "useful_apps"
+              "title": "ros2_notes"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tf2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,10 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "859f4c73fc44206c",
+  "active": "138d91523209109f",
   "lastOpenFiles": [
-    "development_tools/linux/bash_files.md",
+    "learning/things_to_learn.md",
+    "learning/networking.md",
+    "robotics/quaternion_euler_conversions_cpp.md",
+    "development_tools/ros/ros2_notes.md",
+    "development_tools/ros/lichtblick.md",
     "development_tools/linux/useful_apps.md",
+    "development_tools/linux/bash_files.md",
     "development_tools/linux/multiple_python_versions.md",
     "development_tools/linux/useful_command_line_cmds.md",
     "development_tools/git/installation_setup.md",
@@ -179,11 +184,8 @@
     "development_tools/vim/neovim_setup.md",
     "development_tools/nvidia/cuda.md",
     "development_tools/nvidia",
-    "learning/things_to_learn.md",
     "development_tools/git/simultaneous_work_personal_github.md",
     "development_tools/docker/docker_crash_course.md",
-    "development_tools/ros/ros2_notes.md",
-    "development_tools/ros/lichtblick.md",
     "development_tools/chrome/installation.md",
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/images",
@@ -202,9 +204,7 @@
     "development_tools/docker/images",
     "development_tools/docker/images/Pasted image 20241001133758.png",
     "development_tools/docker",
-    "robotics/quaternion_euler_conversions_cpp.md",
     "robotics/urdf_to_dh_conversion.md",
-    "development_tools/cad/blender.md",
     "development_tools/cad",
     "software_notes/cpp",
     "software_notes/cpp",
