@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/git/continuous_integration.md",
+                "file": "development_tools/nvidia/cuda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "continuous_integration"
+              "title": "cuda"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tf2",
+                "query": "cuda",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,6 +186,8 @@
   },
   "active": "28461fc52085e5ba",
   "lastOpenFiles": [
+    "development_tools/ros/ros2_notes.md",
+    "development_tools/git/continuous_integration.md",
     "development_tools/git/images/Pasted image 20250422113314.png",
     "development_tools/git/images/Pasted image 20250422113120.png",
     "development_tools/git/images/Pasted image 20250422112855.png",
@@ -192,8 +195,6 @@
     "development_tools/git/images/Pasted image 20250422112742.png",
     "development_tools/git/images/Pasted image 20250422111223.png",
     "development_tools/git/images",
-    "development_tools/ros/ros2_notes.md",
-    "development_tools/git/continuous_integration.md",
     "learning/things_to_learn.md",
     "learning/networking.md",
     "robotics/quaternion_euler_conversions_cpp.md",
@@ -229,7 +230,6 @@
     "development_tools/cad",
     "software_notes/cpp",
     "development_tools/coding_standards/Pasted image 20240923173237.png",
-    "robotics/paper_reviews/images/Pasted image 20240528083143.png",
-    "robotics/paper_reviews/images/Pasted image 20240528092311.png"
+    "robotics/paper_reviews/images/Pasted image 20240528083143.png"
   ]
 }
