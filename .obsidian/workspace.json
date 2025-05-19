@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/nvidia/cuda.md",
+                "file": "development_tools/linux/useful_command_line_cmds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cuda"
+              "title": "useful_command_line_cmds"
             }
           }
         ],
@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,6 +185,7 @@
   },
   "active": "28461fc52085e5ba",
   "lastOpenFiles": [
+    "development_tools/nvidia/cuda.md",
     "development_tools/ros/ros2_notes.md",
     "development_tools/git/continuous_integration.md",
     "development_tools/git/images/Pasted image 20250422113314.png",
@@ -206,7 +206,6 @@
     "development_tools/git/installation_setup.md",
     "development_tools/vim/LazyVimNotes.md",
     "development_tools/vim/neovim_setup.md",
-    "development_tools/nvidia/cuda.md",
     "development_tools/nvidia",
     "development_tools/git/simultaneous_work_personal_github.md",
     "development_tools/docker/docker_crash_course.md",
