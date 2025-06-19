@@ -31,8 +31,8 @@ Populate it with the following contents (replacing the `Exec` and `Icon` paths w
 Version=1.0
 Name=Lichtblick
 Comment=Run the Lichtblick app
-Exec=/home/dustan-kraus/git/lichtblick/dist/linux-unpacked/lichtblick
-Icon=/home/dustan-kraus/git/lichtblick/packages/suite-desktop/resources/icon/icon.png
+Exec=/home/dustan-kraus/git/personal/lichtblick/dist/linux-unpacked/lichtblick
+Icon=/home/dustan-kraus/git/personal/lichtblick/packages/suite-desktop/resources/icon/icon.png
 Terminal=false
 Type=Application
 Categories=Utility;
