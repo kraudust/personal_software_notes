@@ -43,6 +43,16 @@ Make it executable
 chmod +x ~/.local/share/applications/lichtblick.desktop
 ```
 
+## Updating
+```bash
+git pull
+git checkout v1.16.0
+git lfs pull
+corepack enable
+yarn install
+yarn run desktop:build:prod
+yarn run package:linux
+```
 ## Running
 - Follow instructions to create a desktop shortcut above, or launch it with: `./dist/linux-unpacked/lichtblick`
 
