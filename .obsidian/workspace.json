@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/chrome/installation.md",
+                "file": "development_tools/jetson/yahboom_jetson_orin_nano_super_developer_kit_setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "installation"
+              "title": "yahboom_jetson_orin_nano_super_developer_kit_setup"
             }
           }
         ],
@@ -185,19 +185,20 @@
   },
   "active": "28461fc52085e5ba",
   "lastOpenFiles": [
+    "development_tools/ros/ros2_notes.md",
+    "development_tools/jetson/yahboom_jetson_orin_nano_super_developer_kit_setup.md",
+    "development_tools/ros/lichtblick.md",
     "development_tools/linux/bash_files.md",
+    "development_tools/chrome/installation.md",
     "development_tools/linux/multiple_python_versions.md",
     "development_tools/linux/useful_command_line_cmds.md",
     "development_tools/linux/useful_apps.md",
-    "development_tools/jetson/yahboom_jetson_orin_nano_super_developer_kit_setup.md",
     "development_tools/docker/docker_crash_course.md",
     "development_tools/nvidia/cuda.md",
     "development_tools/obsidian/hacks.md",
     "development_tools/obsidian/installation.md",
     "README.md",
-    "development_tools/ros/lichtblick.md",
     "development_tools/git/simultaneous_work_personal_github.md",
-    "development_tools/ros/ros2_notes.md",
     "learning/world_coordinate_frames.md",
     "development_tools/open_dds/open_dds_learning.md",
     "development_tools/open_dds/images/Pasted image 20250611080034.png",
@@ -220,7 +221,6 @@
     "development_tools/vim/LazyVimNotes.md",
     "development_tools/vim/neovim_setup.md",
     "development_tools/nvidia",
-    "development_tools/chrome/installation.md",
     "development_tools/terminator/terminator_setup.md",
     "development_tools/terminator/images",
     "development_tools/terminator/images/terminator_profile_preferences.png",
