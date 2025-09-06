@@ -9,6 +9,7 @@ title: Table of Contents
 ![[images/Pasted image 20241001133758.png]]
 
 # Install docker
+Run the INstall docker script and the Install docker nvidia script.
 Follow the [instructions on the Docker website](https://docs.docker.com/engine/install/ubuntu) to install Docker Engine for ubuntu. Once it’s installed, you should have the `docker` command available on your command line.
 Instructions below from: [https://docs.docker.com/engine/install/ubuntu](https://docs.docker.com/engine/install/ubuntu)
 1. Run the following to uninstall all conflicting packages:
