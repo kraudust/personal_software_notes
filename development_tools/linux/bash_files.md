@@ -35,3 +35,5 @@ else
     export PS1="\[\033[1;30m\][\@]\[\033[0m\]\[\033[0;34m\]\$(parse_vc_branch_and_add_brackets)\[\033[0m\]\[\033[1;32m\]\W $ \[\033[0m\]"
 fi
 ```
+
+ls -larth
