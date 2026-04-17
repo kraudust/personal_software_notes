@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development_tools/kitty/setup_kitty.md",
+                "file": "development_tools/ros/mcap cli.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "setup_kitty"
+              "title": "mcap cli"
             }
           }
         ]
@@ -171,20 +171,27 @@
   },
   "active": "82934bf49e5010a9",
   "lastOpenFiles": [
+    "development_tools/ros/ros2_notes.md",
+    "development_tools/ros/mcap cli.md",
+    "development_tools/linux/useful_command_line_cmds.md",
+    "development_tools/linux/useful_apps.md",
+    "development_tools/linux/multiple_python_versions.md",
+    "development_tools/linux/bash_files.md",
+    "development_tools/terminal_tools/fzf.md",
+    "development_tools/kitty/setup_kitty.md",
+    "development_tools/terminal_tools",
+    "development_tools/Untitled.md",
+    "development_tools/linux/Untitled.md",
+    "development_tools/terminator/terminator_setup.md",
     "development_tools/docker/installation.md",
     "development_tools/docker/docker_crash_course.md",
     "development_tools/docker/useful_docker_commands.md",
     "development_tools/nvidia/cuda.md",
-    "development_tools/kitty/setup_kitty.md",
     "development_tools/vs_code/installation.md",
-    "development_tools/linux/bash_files.md",
-    "development_tools/terminator/terminator_setup.md",
     "development_tools/kitty",
     "development_tools/ros/lichtblick_foxglove.md",
     "development_tools/jetson/yahboom_jetson_orin_nano_super_developer_kit_setup.md",
-    "development_tools/linux/useful_command_line_cmds.md",
     "development_tools/chrome/installation.md",
-    "development_tools/ros/ros2_notes.md",
     "development_tools/jetson/images/Pasted image 20250930132659.png",
     "development_tools/jetson/images",
     "usb_cameras/linux_interaction.md",
@@ -194,10 +201,6 @@
     "learning/world_coordinate_frames.md",
     "learning/things_to_learn.md",
     "development_tools/obsidian/useful_plugins.md",
-    "development_tools/obsidian/installation.md",
-    "development_tools/obsidian/hacks.md",
-    "development_tools/linux/useful_apps.md",
-    "learning/factor_graphs.md",
     "learning/images/Pasted image 20250819112650.png",
     "learning/images/Pasted image 20250819112400.png",
     "learning/images/Pasted image 20250819112227.png",
@@ -209,13 +212,10 @@
     "learning/images/Pasted image 20250819111206.png",
     "learning/images",
     "usb_cameras",
-    "development_tools/linux/multiple_python_versions.md",
-    "README.md",
     "development_tools/open_dds/images",
     "development_tools/open_dds",
     "development_tools/jetson",
     "development_tools/git/images",
-    "development_tools/nvidia",
-    "development_tools/terminator/images"
+    "development_tools/nvidia"
   ]
 }
