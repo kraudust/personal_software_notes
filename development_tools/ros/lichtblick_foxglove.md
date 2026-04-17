@@ -1,4 +1,16 @@
 # Installation
+## Easier Way
+```bash
+wget https://github.com/lichtblick-suite/lichtblick/releases/download/v1.24.3/lichtblick-1.24.3-linux-amd64.deb
+sudo apt install ./lichtblick-1.24.3-linux-amd64.deb
+```
+
+```bash
+# Download image from here: https://foxglove.dev/download
+sudo apt install ./foxglove-studio-latest-linux-amd64.deb
+# Future updates
+sudo apt update && sudo apt install foxglove-studio
+```
 ## Install dependencies
 ### Node.js
 - Download Node.js from [here](https://nodejs.org/en/) by clicking the `Download Node.js (LTS)` button. This will download a  `node-v22.13.0-linux-x64.tar.xz` file
