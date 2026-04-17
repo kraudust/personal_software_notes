@@ -12,7 +12,7 @@ source ~/.bashrc
 - Settings -> Keyboard -> View and Customize Shortcuts -> Custom Shortcuts
 - Click `Add Shortcut`
     - Name: kitty
-    - Command: /home/dustan-kraus/.local/kitty.app/bin/kitty
+    - Command: kitty --start-as=maximized
     - Shortcut: press `Ctrl + Alt + t`
 
 # Config
